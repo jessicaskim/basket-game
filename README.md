@@ -1,4 +1,4 @@
-# Basket Game
+# Fruit Catcher
 A Python game in which the user navigates a basket by avoiding bombs and catching fruits. The ultimate goal of the game is to get as far as possible in the journey and score the highest amount of points.
 
 # Getting Started
