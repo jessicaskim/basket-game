@@ -171,8 +171,8 @@ def main():
                 if basket.hitbox[1] - 120 <= item.hitbox[1] <= basket.hitbox[1] - 40:
                     fruits.remove(item)
                     score += 1
-                    if item.f_type == 0: # add more options later
-                        score += 0 # change later once we have more options
+                    if item.f_type == 0:
+                        score += 0
                     print("Score:", score)
         for item in bombs:
             item.draw(window)
