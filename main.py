@@ -154,7 +154,7 @@ def main():
             fruit_add_counter = 0
             f_startx = random.randrange(100, display_width - 100)
             f_starty = 0
-            f_type = 0 # change to random later
+            f_type = 0
             new_fruit = Fruits(f_startx, f_starty, f_type)
             fruits.append(new_fruit)
         if bomb_add_counter == add_bomb_rate:
